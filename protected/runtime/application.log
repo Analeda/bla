@@ -1,0 +1,829 @@
+2016/11/14 00:48:10 [error] [exception.CHttpException.401] exception 'CHttpException' with message '<!DOCTYPE html><html lang=en><meta charset=utf-8><meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style>*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><div id="af-error-container"><a href=//www.google.com/><span id=logo aria-label=Google></span></a><p><b>404.</b> <ins>That’s an error.</ins><p>The requested URL was not found on this server. <ins>That’s all we know.</ins></div>' in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php:97
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 00:50:18 [error] [exception.CHttpException.401] exception 'CHttpException' with message '<!DOCTYPE html><html lang=en><meta charset=utf-8><meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style>*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><div id="af-error-container"><a href=//www.google.com/><span id=logo aria-label=Google></span></a><p><b>404.</b> <ins>That’s an error.</ins><p>The requested URL was not found on this server. <ins>That’s all we know.</ins></div>' in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php:97
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 00:59:48 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:03:26 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:06:30 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:06:31 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:06:31 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:06:32 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:06:32 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 01:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii1/google/
+---
+2016/11/14 01:47:59 [error] [exception.CException] exception 'CException' with message 'The config.php file doesn't exists' in C:\xampp\htdocs\yii1\google\protected\extensions\hoauth\models\UserOAuth.php:106
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\extensions\hoauth\widgets\HOAuth.php(51): UserOAuth::getConfig()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(181): HOAuth->run()
+#2 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(51): CBaseController->widget('ext.hoauth.widg...')
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#7 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(121): CController->render('login', Array)
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 01:57:01 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 02:01:47 [error] [php] include(Controller.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/
+in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\yii1\google\index.php (13)
+2016/11/14 02:05:08 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:05:54 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:08:01 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:10:31 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:10:33 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:13:23 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:13:26 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:13:33 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:15:57 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:16:00 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:28:10 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuthWidget" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.eauth.EAuth...', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.eauth.EAuth...', Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:40:46 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:40:50 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:45:57 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:49:42 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:49:44 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:49:45 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:51:45 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:53:36 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:55:22 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...')
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:56:09 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 02:59:49 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuth" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(196): YiiBase::import('ext.eauth.EAuth', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 03:00:46 [error] [exception.CException] exception 'CException' with message 'Alias "ext.eauth.EAuth" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(196): YiiBase::import('ext.eauth.EAuth', true)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 03:01:07 [error] [exception.CException] exception 'CException' with message 'Property "EAuth.cache" is not defined.' in C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\YiiBase.php(220): CComponent->__set('cache', false)
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CModule.php(103): CModule->getComponent('eauth')
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(47): CModule->__get('eauth')
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.eauth.EAuth...', Array)
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): CBaseController->widget('ext.eauth.EAuth...', Array)
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): CController->render('login', Array)
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
+2016/11/14 03:03:34 [error] [php] Missing argument 1 for LightOpenID::__construct(), called in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\loid.php on line 34 and defined (C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\LightOpenID.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuth.php(136): GoogleOpenIDService->init()
+#1 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuth.php(72): EAuth->getIdentity()
+#2 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(63): EAuth->getServices()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): SiteController->createWidget()
+#5 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): SiteController->widget()
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): SiteController->renderFile()
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): SiteController->renderPartial()
+#10 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): SiteController->render()
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/index.php?r=site/login
+in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\LightOpenID.php (74)
+in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\loid.php (34)
+in C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EOpenIDService.php (55)
+2016/11/14 03:06:14 [error] [php] Missing argument 1 for LightOpenID::__construct(), called in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\loid.php on line 34 and defined (C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\LightOpenID.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuth.php(136): GoogleOpenIDService->init()
+#1 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuth.php(72): EAuth->getIdentity()
+#2 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(63): EAuth->getServices()
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): SiteController->createWidget()
+#5 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): SiteController->widget()
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): SiteController->renderFile()
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): SiteController->renderPartial()
+#10 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): SiteController->render()
+#11 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/index.php?r=site/login
+in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\LightOpenID.php (74)
+in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\loid.php (34)
+in C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EOpenIDService.php (55)
+2016/11/14 03:08:21 [error] [php] strpos(): Offset not contained in string (C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\LightOpenID.php:84)
+Stack trace:
+#0 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EOpenIDService.php(55): loid->load()
+#1 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuth.php(136): GoogleOpenIDService->init()
+#2 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuth.php(72): EAuth->getIdentity()
+#3 C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EAuthWidget.php(63): EAuth->getServices()
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(147): EAuthWidget->init()
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(180): SiteController->createWidget()
+#6 C:\xampp\htdocs\yii1\google\protected\views\site\login.php(57): SiteController->widget()
+#7 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(869): SiteController->renderFile()
+#10 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(782): SiteController->renderPartial()
+#11 C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php(131): SiteController->render()
+#12 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#13 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yii1\google\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1/google/index.php?r=site/login
+in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\LightOpenID.php (84)
+in C:\xampp\htdocs\yii1\google\protected\extensions\lightopenid\loid.php (34)
+in C:\xampp\htdocs\yii1\google\protected\extensions\eauth\EOpenIDService.php (55)
+2016/11/16 22:57:16 [error] [exception.CHttpException.401] exception 'CHttpException' with message '<!DOCTYPE html><html lang=en><meta charset=utf-8><meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style>*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><div id="af-error-container"><a href=//www.google.com/><span id=logo aria-label=Google></span></a><p><b>404.</b> <ins>That’s an error.</ins><p>The requested URL was not found on this server. <ins>That’s all we know.</ins></div>' in C:\xampp\htdocs\yii1\google\protected\controllers\SiteController.php:95
+Stack trace:
+#0 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#1 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(282): CController->run('login')
+#5 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#6 C:\xampp\htdocs\yii1\yii-1.1.17.467ff50\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yii1\google\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii1/google/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii1/google/
+---
